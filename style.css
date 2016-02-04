@@ -1,0 +1,149 @@
+h1,h2,h3,h4,h5 {
+    color: #2a73df;
+}
+
+.orange {
+    color: #df7500;
+}
+
+h1 span {
+    text-shadow: 0 0 1px #808080;
+}
+
+.background-orange {
+    background: rgba(223,117,0, .5)
+}
+ h6:hover {
+     color: #DF7500;
+ }
+
+ .navbar .container-fluid {
+     background: rgba(213,209,217, .3);
+ }
+
+.navigation-section span {
+    color: #808080;
+}
+
+.content-area {
+    height: auto;
+    width: 100%;
+}
+
+.left-section {
+    background: rgba(213,209,217, .3);
+    height: 1100px;
+}
+
+.right-section {
+   background: rgba(213,209,217, .3);
+   height: 1100px;
+}
+
+.visibility {
+    display: none;
+}
+
+.main-section {
+    margin-bottom: 5%;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+a {
+    color: #808080;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#bottom-navbar {
+
+    padding: 10px;
+}
+
+#bottom-navbar h6{
+    margin: 0 15px;
+    padding: 10px 0;
+}
+
+#bottom-navbar ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.navigation-section span {
+    color: #DF7500;
+}
+
+@media (max-width: 1125px) {
+  .left-section, .right-section {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 920px) {
+    .left-section, .right-section {
+        height: 1550px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .left-section {
+        height: 5%;
+        width: 50%;
+    }
+    .main-section {
+        height: 1500px;
+        width: 100%;
+    }
+    .news-title {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    #bottom-navbar {
+        padding: 0;
+    }
+
+    #bottom-navbar h6{
+        margin: 0;
+        padding: 10px;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    #bottom-navbar ul {
+        display: block;
+    }
+    .visibility {
+        display: block;
+        height: 5%;
+        width: 50%;
+    }
+    .navigation-section h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 550px) {
+    .main-section {
+        height: 1725px;
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .main-section {
+        height: 2000px;
+        width: 100%;
+    }
+}
